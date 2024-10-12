@@ -12,7 +12,7 @@ rich = "^13.9.2"
 psutil = "^6.0.0"
 
 [tool.poetry.scripts]
-tcpip-simulator = "tcpipy.main:main"
+tcpipy = "tcpipy.main:main"
 
 
 [build-system]
