@@ -13,13 +13,28 @@ Ao rodar o programa, ele simula a comunicação TCP/IP real, apresentando o que 
 
 ## Instalação
 
-### 1. Clonar o Repositório
+### 1. Via PyPI:
 
-Se você deseja clonar e rodar o projeto localmente:
+```bash
+pip install tcpipy
+```
+
+### 1. Clonar o Repositório
 
 ```bash
 git clone https://github.com/bogeabr/tcpipy.git
 cd tcpipy
 poetry install
 ```
+### Ou
+
+
+```bash
+git clone https://github.com/bogeabr/tcpipy.git
+cd tcpipy
+python -m venv .venv
+source .venv/bin/activate  # ou .venv\Scripts\activate no Windows
+pip install -e .
+```
+
 ![Saida do programa](https://github.com/bogeabr/tcpipy/blob/c3e90f3ce9eb95babdb39f00da8accb4244fcc9d/assets/capitura.png)
