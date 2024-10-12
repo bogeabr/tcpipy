@@ -21,3 +21,5 @@ Se você deseja clonar e rodar o projeto localmente:
 git clone https://github.com/bogeabr/tcpipy.git
 cd tcpipy
 poetry install
+```
+![Saida do programa](https://github.com/bogeabr/tcpipy/blob/c3e90f3ce9eb95babdb39f00da8accb4244fcc9d/assets/capitura.png)
